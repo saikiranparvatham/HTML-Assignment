@@ -1,0 +1,70 @@
+body
+{
+background-color: skyblue;
+border-style: solid;
+border-width: 2;
+
+}
+img
+{
+    float: left;
+}
+h1
+{
+ float: middle;
+ color: seashell;
+ font-size: 80;
+ margin-left: 30%;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-size: 20;
+}
+form{
+    margin: 5px;
+}
+input{
+    
+    margin-right:50;
+    
+    width: 300;
+}
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+    background-color:darkblue;
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+footer {
+    
+    margin-left: 5%;
+}
+section{
+    background-image: url("../images/bankimage.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-position-x: 0px;
+    background-size: 95%;
+}

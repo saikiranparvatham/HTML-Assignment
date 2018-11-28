@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <img src="../images/bank.png" height="60" width="200">
+            <h1>State bank of India</h1>
+        </header>
+        <h2>To Create a New Account please fill the following details :</h2>
+        <form name="myform"><table>
+        <tr>   <td> Account Holder Name :</td>
+            <td><input type="text"></td></tr>
+            <tr><td>Email Id :</td>
+            <td><input type="email"></td></tr>
+            <tr><td> Date of Birth</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr><td>Phone No :</td>
+        <td> <input type="number" maxlength="10"></td></tr>
+        <tr><td>Select the Account type
+        </td>
+    <td><select name="one" onchange="if(this.value=='savings'){this.form['other'].style.visibility='visible'}else{this.form['other'].style.visibility='hidden'};">
+            <option value="" selected="selected">Select...</option>
+            <option value="savings">Savings</option>
+            <option value="current">Current</option>
+           </td>
+            
+          </select>
+          <td>
+          <input type="radio" name="other" style="visibility: hidden;">Salaried<br>
+          <input type="radio" name="other" style="visibility: hidden;" >Not Salaried<br></td>
+        </tr>
+        </table>
+        </form>
+        <footer>
+                <p>For Customer Service please call our toll free number 1800-421-821.</p>
+                <p>© All rights are reserved by USCIB, and content may not be reproduced, downloaded, disseminated, published, or transferred in any form </p>
+            </footer>
+    </body>
+</html>
