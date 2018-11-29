@@ -44,7 +44,7 @@ input{
 .vertical-menu a:hover {
     background-color: #ccc;
 }
-.vertical-menu a.active {
+.vertical-menu a.id {
     background-color: #4CAF50;
     color: white;
 }
@@ -67,4 +67,9 @@ section{
     background-position: 100%;
     background-position-x: 0px;
     background-size: 95%;
+}
+
+aside{
+    margin-top:15%;
+    margin-left:5%;
 }
